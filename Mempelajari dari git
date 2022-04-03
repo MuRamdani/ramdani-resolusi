@@ -1,0 +1,9 @@
+GITHUB=Website/layanan untuk mengelola project git
+GIT=Salah satu software yang bisa melakukan VCS
+GIT = Sebuah VCS terdistribusi untuk mengelola perubahan file dalam folder.
+	  (Version Control System) VCS = Sistem yang menyimpan & mengelola rekaman perubahan dari source code 
+GIT= Riwayat perubahan file disimpan menggunakan serangkaian commit.
+GIT=  Bisa Menaroh(Push) di github dan bisa menarik(Pull) dari github.
+GIT= Bisa merepo github yang disebut clone 
+
+
