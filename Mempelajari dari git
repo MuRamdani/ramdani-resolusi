@@ -27,3 +27,8 @@ Git Command (local)
 •	$ git branch
 •	$ git help
 
+3 area pada repo Git
+•	Working tree
+•	Staging area
+•	History
+Working tree > (git add ) > Staging Area >(git commit)>History
