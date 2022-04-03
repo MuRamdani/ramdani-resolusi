@@ -1,10 +1,10 @@
-GITHUB=Website/layanan untuk mengelola project git
-GIT=Salah satu software yang bisa melakukan VCS
-GIT = Sebuah VCS terdistribusi untuk mengelola perubahan file dalam folder.
-	  (Version Control System) VCS = Sistem yang menyimpan & mengelola rekaman perubahan dari source code 
-GIT= Riwayat perubahan file disimpan menggunakan serangkaian commit.
-GIT=  Bisa Menaroh(Push) di github dan bisa menarik(Pull) dari github.
-GIT= Bisa merepo github yang disebut clone 
+GITHUB = Website/layanan untuk mengelola project git
+GIT    = Salah satu software yang bisa melakukan VCS
+GIT    = Sebuah VCS terdistribusi untuk mengelola perubahan file dalam folder.
+	  VCS (Version Control System)= Sistem yang menyimpan & mengelola rekaman perubahan dari source code 
+GIT    = Riwayat perubahan file disimpan menggunakan serangkaian commit.
+GIT    = Bisa Menaroh(Push) di github dan bisa menarik(Pull) dari github.
+GIT    = Bisa merepo github yang disebut clone 
 
 Istilah Git
 Repo     = folder project kita
@@ -17,4 +17,13 @@ Remote   = sumber yang memiliki repo
 Clone    = mengambil repo dari remote
 Push     = mengirimkan commit ke repo
 Pull     = mengambil commit dari repo
+
+Git Command (local)
+•	$ git init 
+•	$ git add<file(s)>
+•	$ git status
+•	$ git commit
+•	$ git config
+•	$ git branch
+•	$ git help
 
