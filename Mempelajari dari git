@@ -6,4 +6,15 @@ GIT= Riwayat perubahan file disimpan menggunakan serangkaian commit.
 GIT=  Bisa Menaroh(Push) di github dan bisa menarik(Pull) dari github.
 GIT= Bisa merepo github yang disebut clone 
 
+Istilah Git
+Repo     = folder project kita
+Commit   = rekaman/ snapshot dari repo kita
+Hash     = penanda unik pada sebuah commit
+Checkout = berpindah ke sebuah commit
+Branch   = cabang bebas dari sebuah commit
+Merge    = Menggabungkan branch
+Remote   = sumber yang memiliki repo
+Clone    = mengambil repo dari remote
+Push     = mengirimkan commit ke repo
+Pull     = mengambil commit dari repo
 
