@@ -32,3 +32,27 @@ Git Command (local)
 •	Staging area
 •	History
 Working tree > (git add ) > Staging Area >(git commit)>History
+
+Pwd         = print working deritory (dmna kita berada).
+ls          = Melihat data yang bisa dimasuki (sama seperti dir di cmd).
+	      (Yang ada slash/ berarti folder).
+Cd          = Masuk kedalam folder (sama seperti cd . . ).
+Clear       = Menghapus history (sama seperti di cmd cls).
+Git init    = Membuat brach utamanya .
+Git status  = ada perubahan file yang mana.
+Git log     = Melihat semua history commit
+Git  log -3 = Melihat history terakhir saja yang sudah di commit
+Git log –(nama file)  = Kapan file ini hilang
+Git checkout (5 digit pertama dari hashnya)  = Memanggil file yang sudah dihapus (beberapa commit)
+Git checkout(5 digit pertama dari hashnya) +( nama file) = Menmanggil file
+
+(peraturan harus berurut dari git add lalu git commit -m)
+Git add (nama file) = Staging area 1 file baru di commit
+Git add .           = Staging area semua file yang di commit
+Git commit -m       = Menambahkan pesan untuk commit
+
+Alert (perhatian) jika  Git commit (di enter) 
+Git config –global user.name”(harus sesuai dengan akun git hub yang dipakai)”
+Git config –global user.email”(harus sesuai dengan akun git hub yang dipakai)”
+
+
