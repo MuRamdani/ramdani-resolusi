@@ -1,0 +1,58 @@
+GITHUB = Website/layanan untuk mengelola project git
+GIT    = Salah satu software yang bisa melakukan VCS
+GIT    = Sebuah VCS terdistribusi untuk mengelola perubahan file dalam folder.
+	  VCS (Version Control System)= Sistem yang menyimpan & mengelola rekaman perubahan dari source code 
+GIT    = Riwayat perubahan file disimpan menggunakan serangkaian commit.
+GIT    = Bisa Menaroh(Push) di github dan bisa menarik(Pull) dari github.
+GIT    = Bisa merepo github yang disebut clone 
+
+Istilah Git
+Repo     = folder project kita
+Commit   = rekaman/ snapshot dari repo kita
+Hash     = penanda unik pada sebuah commit
+Checkout = berpindah ke sebuah commit
+Branch   = cabang bebas dari sebuah commit
+Merge    = Menggabungkan branch
+Remote   = sumber yang memiliki repo
+Clone    = mengambil repo dari remote
+Push     = mengirimkan commit ke repo
+Pull     = mengambil commit dari repo
+
+Git Command (local)
+•	$ git init 
+•	$ git add<file(s)>
+•	$ git status
+•	$ git commit
+•	$ git config
+•	$ git branch
+•	$ git help
+
+3 area pada repo Git
+•	Working tree
+•	Staging area
+•	History
+Working tree > (git add ) > Staging Area >(git commit)>History
+
+Pwd         = print working deritory (dmna kita berada).
+ls          = Melihat data yang bisa dimasuki (sama seperti dir di cmd).
+	      (Yang ada slash/ berarti folder).
+Cd          = Masuk kedalam folder (sama seperti cd . . ).
+Clear       = Menghapus history (sama seperti di cmd cls).
+Git init    = Membuat brach utamanya .
+Git status  = ada perubahan file yang mana.
+Git log     = Melihat semua history commit
+Git  log -3 = Melihat history terakhir saja yang sudah di commit
+Git log –(nama file)  = Kapan file ini hilang
+Git checkout (5 digit pertama dari hashnya)  = Memanggil file yang sudah dihapus (beberapa commit)
+Git checkout(5 digit pertama dari hashnya) +( nama file) = Menmanggil file
+
+(peraturan harus berurut dari git add lalu git commit -m)
+Git add (nama file) = Staging area 1 file baru di commit
+Git add .           = Staging area semua file yang di commit
+Git commit -m       = Menambahkan pesan untuk commit
+
+Alert (perhatian) jika  Git commit (di enter) 
+Git config –global user.name”(harus sesuai dengan akun git hub yang dipakai)”
+Git config –global user.email”(harus sesuai dengan akun git hub yang dipakai)”
+
+
